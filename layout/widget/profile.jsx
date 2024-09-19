@@ -63,14 +63,14 @@ class Profile extends Component {
                             </a>
                         </div>
                     </div>
-                    <div class="level-item has-text-centered is-marginless">
+                    {/* <div class="level-item has-text-centered is-marginless">
                         <div>
                             <p class="heading">{counter.tag.title}</p>
                             <a href={counter.tag.url}>
                                 <p class="title">{counter.tag.count}</p>
                             </a>
                         </div>
-                    </div>
+                    </div> */}
                 </nav>
                 {followLink ? <div class="level">
                     <a class="level-item button is-primary is-rounded" href={followLink} target="_blank" rel="me noopener">{followTitle}</a>
